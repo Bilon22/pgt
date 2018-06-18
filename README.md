@@ -11,8 +11,9 @@ Celem projektu jest stworzenie generatora, który z pomocą seed’a wyrysuje na
 ![Mapa duża skala](screens/terrainFar.png?raw=true "Mapa duża skala")
 Cały widok mapy z większej perspektywy. Tak wygenerowany teren nie przypomina nawet trochę żadnej mapy na ziemi.
 
-
+![Mapa duża skala](screens/perlinTerrain3.png?raw=true "Mapa duża skala")
 Szum perlina w czerni i bieli.
+![Mapa duża skala](screens/random.png?raw=true "Mapa duża skala")
 Losowo wygenerowany szum.
 
 # Informacje ogólne
