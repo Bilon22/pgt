@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Generator terenu</title>
+    </head>
+    <body>
+        <div id = "container">
+            <div id = "mapBox">
+                <canvas  id = "canv">Twoja przeglądarka nie obsługuje canvas</canvas>
+            </div>
+            <div id = "optionsBox">
+                <h2>TERRAINS</h2><br/>
+                
+				Water level: <input type="range" min="0" max="100" value="10" class="slider" id="water"><br/>
+				Desert quantity:<input type="range" min="0" max="100" value="15" class="slider" id="desert"><br/>
+				Boreal quantity:<input type="range" min="0" max="100" value="40" class="slider" id="boreal"><br/>
+				
+				<h2>OTHER</h2>
+                Noise level: <input type="text" class = "area" id = "noise" name="water" value="500" /><br/>
+                Biom reliance: <input type="text" class = "area" id = "reliance" name="water" value="20" /><br/>
+				Seed: <input type="text" class = "area" id = "seed" name="water" value="12" /><br/>
+				Shader: <input type="checkbox" id="shader" value ="1" onchange='generate()'>
+				
+                <button id = "create" onClick = "generate()">Create!</button>
+                
+            </div>
+        </div>
+        <script src='perlin.js'></script>
+        <script src = "js.js"></script>
+    </body>
+</html>
