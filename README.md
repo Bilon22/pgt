@@ -1,2 +1,1 @@
-# pgt
-Terrain generator
+# Generator terenu
