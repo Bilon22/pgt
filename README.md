@@ -1,14 +1,14 @@
 # SPIS TREŚCI
-1.       Spis treści
-2.       Prezentacja wyników #1
-3.       Informacje ogólne
-4.       Szum Perlina
-5.       Podsumowanie
+- Spis treści
+- Wstępna prezentacja projektu
+- Informacje ogólne
+- Szum Perlina
+- Podsumowanie
 
-# Prezentacja wyników #1
+# Wstępna prezentacja projektu
 Celem projektu jest stworzenie generatora, który z pomocą seed’a wyrysuje na canvie tereny, który swoim wyglądem będzie przypominać średniowieczne tereny. Do stworzenia programu użyję HTML(szkielet), CSS(wygląd), JS(logika gry i wygląd). Wykorzystuję również bibliotekę processingJS. Korzystając z szumu perlina, algorytm generuje już prostą mapę, na której znajdują się rzeki, oceny, wyżyny, i płaskie tereny. Jednym z większych problemów na jakie natrafiłem jest generowanie miasta. Ciężko jest mi wymyślić/znaleźć algorytm, który tworzyłby tereny, które przypominałyby te, które można było spotkać w średniowieczu. W przyszłości będę rysował na canvie również lasy/pola itp. rzeczy, które urealnią mapę. 
 
-
+![Mapa duża skala](screens/terrainFar.png?raw=true "Mapa duża skala")
 Cały widok mapy z większej perspektywy. Tak wygenerowany teren nie przypomina nawet trochę żadnej mapy na ziemi.
 
 
